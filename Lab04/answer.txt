@@ -1,0 +1,25 @@
+The resulting appearances of the applications developed using Swing and AWT might be different as well. Make comparisons.
+
+Top-Level Containers (Thành phần chứa cấp cao):
+
+AWT: Sử dụng các container phụ thuộc vào nền tảng như Frame, Dialog, và Applet. Giao diện thay đổi theo hệ điều hành.
+
+Swing: Sử dụng các container nhẹ như JFrame, JDialog, và JApplet. Giao diện đồng nhất trên mọi nền tảng và dễ tùy biến.
+
+Component Class Names (Tên lớp thành phần):
+
+AWT: Gồm các thành phần như Button, TextField, Checkbox, Panel.
+
+Swing: Thêm tiền tố "J", ví dụ: JButton, JTextField, JCheckBox, JPanel. Cung cấp thêm các thành phần nâng cao như JTable, JTree.
+
+Event Handling (Xử lý sự kiện):
+
+AWT: Cơ chế xử lý sự kiện cũ, ít linh hoạt và không an toàn luồng.
+
+Swing: Hỗ trợ cơ chế xử lý hiện đại với các listener chi tiết và an toàn luồng nhờ SwingUtilities.invokeLater().
+
+Appearance (Giao diện):
+
+AWT: Phụ thuộc vào giao diện hệ điều hành, khó tùy chỉnh.
+
+Swing: Giao diện đồng nhất, hỗ trợ nhiều giao diện người dùng (Look and Feel), dễ dàng tùy chỉnh.
