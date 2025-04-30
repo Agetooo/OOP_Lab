@@ -27,11 +27,6 @@ public class AWTAccumulator extends Frame {
         setTitle("AWT Accumulator");
         setSize(350, 120);
         setVisible(true);
-        addWindowListener(new WindowAdapter() {
-            public void windowClosing(WindowEvent e) {
-                System.exit(0);  // Thoát chương trình
-            }
-    });
     }
 
     public static void main(String[] args) {
