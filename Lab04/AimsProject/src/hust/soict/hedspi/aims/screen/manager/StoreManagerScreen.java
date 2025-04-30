@@ -109,14 +109,9 @@ public class StoreManagerScreen extends JFrame {
         ArrayList<Media> mediaInStore = store.getItemsInStore();
         for (int i = 0; i < 9 && i < mediaInStore.size(); i++) {
             MediaStore cell = new MediaStore(mediaInStore.get(i));
-            center.add(cell);
-        }
-        for (int i = 0; i < 9 && i < mediaInStore.size(); i++) {
-            MediaStore cell = new MediaStore(mediaInStore.get(i));
             cell.setBorder(BorderFactory.createLineBorder(Color.BLACK)); 
             center.add(cell);
         }
-
         return center;
     }
 
